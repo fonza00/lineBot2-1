@@ -42,4 +42,4 @@ def sendText(user, text):
   r = requests.post(LINE_API, headers=headers, data=data) # ส่งข้อมูล
 
 if __name__ == '__main__':
-    app.run()
+    app.run() 
